@@ -18,7 +18,7 @@ namespace XO
         {
             InitGame();
 
-            for (int move = 1; move <= 9; move++)
+            for (int move = 1; move <= GameField.FIELD_SIZE; move++)
             {
                 MakeMove();
 
